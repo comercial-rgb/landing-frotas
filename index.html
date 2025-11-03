@@ -1,11 +1,355 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <title>Teste Landing</title>
-  </head>
-  <body>
-    <h1>Deu certo! 🚀</h1>
-    <p>Se você está vendo esta página, a Vercel está funcionando.</p>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>InstaSolutions + TechTrust — Gestão de Frotas com Oficinas Integradas</title>
+  <meta name="description" content="Gestão inteligente de frotas com rede de oficinas credenciadas. Reduza custo por km, aumente a disponibilidade e padronize a manutenção da sua frota." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html, body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .container-tight { max-width: 1120px; }
+    .glass { backdrop-filter: blur(8px); background: rgba(255,255,255,0.08); }
+  </style>
+  <!-- PIXELS ATIVOS: SUBSTITUA OS IDS ABAIXO PELOS SEUS =================================================== -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-REPLACE_GADS_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+  // Google Ads/Analytics
+  gtag('config', 'AW-REPLACE_GADS_ID');
+</script>
+
+<!-- Meta Pixel -->
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', 'REPLACE_META_PIXEL_ID');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=REPLACE_META_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+
+<!-- LinkedIn Insight Tag -->
+<script type="text/javascript">
+  _linkedin_partner_id = "REPLACE_LINKEDIN_PARTNER_ID";
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+  (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]}
+  var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script"); b.type = "text/javascript"; b.async = true;
+  b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=REPLACE_LINKEDIN_PARTNER_ID&fmt=gif" /></noscript>
+<!-- ============================================================================================================ -->
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <!-- NAV -->
+  <header class="sticky top-0 z-30 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="mx-auto container-tight px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="https://images.unsplash.com/photo-1571607388539-9b2b4c171c5f?q=80&w=128&auto=format&fit=crop" alt="Logo" class="w-8 h-8 rounded-xl object-cover" />
+        <span class="font-semibold">InstaSolutions + TechTrust</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#beneficios" class="hover:text-slate-700">Benefícios</a>
+        <a href="#como-funciona" class="hover:text-slate-700">Como funciona</a>
+        <a href="#comparativo" class="hover:text-slate-700">Comparativo</a>
+        <a href="#contato" class="px-4 py-2 rounded-xl bg-slate-900 text-white hover:bg-slate-800">Solicitar Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 -z-10"></div>
+    <svg class="absolute -right-20 -top-20 w-[600px] h-[600px] opacity-20 -z-10" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#ffffff" d="M42.5,-72.8C56.1,-65.5,68.4,-56.1,76.2,-43.6C84.1,-31.1,87.6,-15.6,88.1,0.3C88.5,16.1,86,32.3,77.6,45.2C69.2,58.1,55,67.7,40.3,74.3C25.7,80.9,10.6,84.5,-4.6,90.3C-19.8,96.2,-39.6,104.3,-51.2,98.2C-62.8,92.1,-66.2,71.9,-70.6,54.7C-75,37.5,-80.3,23.4,-80.1,9.2C-80,-5.1,-74.4,-19.5,-68.5,-33.2C-62.6,-46.9,-56.4,-59.8,-46.1,-68.7C-35.9,-77.5,-21.6,-82.3,-7.1,-77.8C7.4,-73.3,14.8,-59.5,42.5,-72.8Z" transform="translate(100 100)" />
+    </svg>
+
+    <div class="mx-auto container-tight px-4 py-20 md:py-28 text-white">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Sua frota sob controle total.</h1>
+          <p class="mt-4 text-lg/relaxed text-slate-200">Gestão inteligente + rede de oficinas credenciadas. Reduza o custo por km, aumente a disponibilidade e padronize a manutenção de ponta a ponta.</p>
+          <ul class="mt-6 space-y-2 text-slate-200">
+            <li class="flex items-start gap-2"><span>✅</span><span>+500 oficinas com SLA e auditoria técnica</span></li>
+            <li class="flex items-start gap-2"><span>✅</span><span>OS digital, histórico centralizado e relatórios em tempo real</span></li>
+            <li class="flex items-start gap-2"><span>✅</span><span>Resultados esperados: -15% custo/km e +10% disponibilidade*</span></li>
+          </ul>
+          <div class="mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="#contato" class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-white text-slate-900 font-semibold hover:bg-slate-100">Solicitar demonstração</a>
+            <a href="#beneficios" class="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-white/30 hover:bg-white/10">Ver benefícios</a>
+          </div>
+          <p class="mt-3 text-xs text-slate-300">*Valores de referência com base em projetos de gestão de frota e telemetria. Resultados variam por perfil de uso.</p>
+        </div>
+        <div>
+          <div class="glass rounded-3xl p-6 border border-white/10 shadow-2xl">
+            <div class="text-sm text-slate-200">Demonstração rápida</div>
+            <h3 class="text-2xl font-bold mt-1">Veja como funciona na prática</h3>
+            <ul class="mt-4 space-y-2 text-slate-100">
+              <li>• Painel com custo por km e disponibilidade</li>
+              <li>• Abertura e aprovação de OS em 1 clique</li>
+              <li>• Rede integrada por raio e especialidade</li>
+            </ul>
+            <img class="mt-4 rounded-2xl" src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1200&auto=format&fit=crop" alt="Dashboard de Frota" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section id="beneficios" class="mx-auto container-tight px-4 py-16">
+    <h2 class="text-3xl md:text-4xl font-extrabold">Benefícios que impactam o caixa</h2>
+    <p class="mt-2 text-slate-600">Tecnologia, rede e processo trabalhando juntos para reduzir custos e aumentar a disponibilidade da sua frota.</p>
+
+    <div class="grid md:grid-cols-3 gap-6 mt-8">
+      <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
+        <div class="text-sm font-semibold text-slate-500">Gestão Inteligente</div>
+        <h3 class="text-xl font-bold mt-1">Planejamento & Preventiva</h3>
+        <p class="mt-2 text-slate-600">Alertas automáticos, cronograma por KM/tempo e controle de consumo e peças.</p>
+      </div>
+      <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
+        <div class="text-sm font-semibold text-slate-500">Rede Credenciada</div>
+        <h3 class="text-xl font-bold mt-1">+500 Oficinas com SLA</h3>
+        <p class="mt-2 text-slate-600">Atendimento por raio, padrão de serviço e auditoria de OS e notas.</p>
+      </div>
+      <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
+        <div class="text-sm font-semibold text-slate-500">Transparência</div>
+        <h3 class="text-xl font-bold mt-1">Custo/km & Disponibilidade</h3>
+        <p class="mt-2 text-slate-600">Painéis em tempo real e histórico completo por veículo e por oficina.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" class="bg-slate-900 text-white">
+    <div class="mx-auto container-tight px-4 py-16">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold">Como funciona</h2>
+          <ol class="mt-6 space-y-4 text-slate-200">
+            <li><span class="font-semibold">1) Diagnóstico inicial</span> — dados da frota e perfil de uso.</li>
+            <li><span class="font-semibold">2) Configuração</span> — regras de preventiva, rede por raio e SLA.</li>
+            <li><span class="font-semibold">3) Operação</span> — abertura e autorização digital de OS.</li>
+            <li><span class="font-semibold">4) Métricas</span> — custo/km, disponibilidade e TAT por oficina.</li>
+          </ol>
+        </div>
+        <div class="bg-white/5 rounded-3xl p-6 border border-white/10">
+          <img class="rounded-2xl" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop" alt="Oficina credenciada" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARATIVO -->
+  <section id="comparativo" class="mx-auto container-tight px-4 py-16">
+    <h2 class="text-3xl md:text-4xl font-extrabold">Por que é diferente?</h2>
+    <div class="mt-6 overflow-x-auto">
+      <table class="w-full text-left min-w-[720px]">
+        <thead>
+          <tr class="border-b border-slate-200 text-slate-500 text-sm">
+            <th class="py-3">&nbsp;</th>
+            <th class="py-3">Modelo Tradicional</th>
+            <th class="py-3">InstaSolutions + TechTrust</th>
+          </tr>
+        </thead>
+        <tbody class="text-slate-700">
+          <tr class="border-b border-slate-100">
+            <td class="py-3 font-medium">Controle</td>
+            <td class="py-3">Planilhas e ligações</td>
+            <td class="py-3">Fluxo digital integrado</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-3 font-medium">Rede</td>
+            <td class="py-3">Oficinas sem padrão</td>
+            <td class="py-3">Credenciada com SLA</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-3 font-medium">Transparência</td>
+            <td class="py-3">Relatórios limitados</td>
+            <td class="py-3">Painéis em tempo real</td>
+          </tr>
+          <tr>
+            <td class="py-3 font-medium">Resultado</td>
+            <td class="py-3">Indefinido</td>
+            <td class="py-3">-15% custo/km; +10% disponibilidade*</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PROVA SOCIAL (opcional: substitua pelos seus cases) -->
+  <section class="bg-white">
+    <div class="mx-auto container-tight px-4 py-14">
+      <h2 class="text-2xl md:text-3xl font-extrabold">O que nossos clientes dizem</h2>
+      <div class="grid md:grid-cols-3 gap-6 mt-6">
+        <div class="rounded-3xl border border-slate-200 p-6">
+          <p class="text-slate-700">“Reduzimos o tempo parado e temos total visibilidade dos custos.”</p>
+          <div class="mt-4 text-sm text-slate-500">Operações — Logística SP</div>
+        </div>
+        <div class="rounded-3xl border border-slate-200 p-6">
+          <p class="text-slate-700">“A rede credenciada com SLA dá segurança na manutenção.”</p>
+          <div class="mt-4 text-sm text-slate-500">Gestor — Utilidades PR</div>
+        </div>
+        <div class="rounded-3xl border border-slate-200 p-6">
+          <p class="text-slate-700">“O painel de custo por km virou nosso indicador principal.”</p>
+          <div class="mt-4 text-sm text-slate-500">Diretoria — Serviços RS</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO / FORMULÁRIO -->
+  <section id="contato" class="relative">
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-100 to-white -z-10"></div>
+    <div class="mx-auto container-tight px-4 py-16">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold">Solicite uma demonstração</h2>
+          <p class="mt-3 text-slate-600">Preencha o formulário que nosso time entra em contato para entender o perfil da sua frota e apresentar a plataforma.</p>
+          <ul class="mt-6 space-y-2 text-slate-700">
+            <li>• Atendimento em SP, MS, MT, ES, RS, PR e CE</li>
+            <li>• Integração com sua telemetria atual (opcional)</li>
+            <li>• Contratos por resultado e SLAs claros</li>
+          </ul>
+        </div>
+
+        <!-- Dica rápida: para ir ao ar em minutos, use Formspree (gratuito) e troque o action abaixo pelo seu endpoint. -->
+        <form id="leadForm" action="https://formspree.io/f/xblpvddr" method="POST" class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="text-sm text-slate-600">Nome*</label>
+              <input required name="nome" class="mt-1 w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-slate-900" placeholder="Seu nome"/>
+            </div>
+            <div>
+              <label class="text-sm text-slate-600">Empresa*</label>
+              <input required name="empresa" class="mt-1 w-full px-4 py-3 rounded-xl border border-slate-300" placeholder="Razão social"/>
+            </div>
+            <div>
+              <label class="text-sm text-slate-600">E-mail corporativo*</label>
+              <input required type="email" name="email" class="mt-1 w-full px-4 py-3 rounded-xl border border-slate-300" placeholder="voce@empresa.com"/>
+            </div>
+            <div>
+              <label class="text-sm text-slate-600">Telefone/WhatsApp*</label>
+              <input required name="telefone" class="mt-1 w-full px-4 py-3 rounded-xl border border-slate-300" placeholder="(11) 90000-0000"/>
+            </div>
+            <div class="md:col-span-2">
+              <label class="text-sm text-slate-600">Tamanho da frota*</label>
+              <select required name="tamanho" class="mt-1 w-full px-4 py-3 rounded-xl border border-slate-300">
+                <option value="">Selecione</option>
+                <option>Até 30 veículos</option>
+                <option>31 a 100</option>
+                <option>101 a 300</option>
+                <option>Mais de 300</option>
+              </select>
+            </div>
+            <div class="md:col-span-2">
+              <label class="text-sm text-slate-600">Mensagem</label>
+              <textarea name="mensagem" rows="4" class="mt-1 w-full px-4 py-3 rounded-xl border border-slate-300" placeholder="Conte rapidamente o perfil da sua operação"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="mt-6 w-full px-6 py-3 rounded-xl bg-slate-900 text-white font-semibold hover:bg-slate-800">Enviar e agendar demonstração</button>
+          <p class="mt-3 text-xs text-slate-500">Ao enviar, você concorda com nossa política de privacidade.</p>
+          <p id="formFeedback" class="hidden mt-3 text-sm"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-slate-300">
+    <div class="mx-auto container-tight px-4 py-10 grid md:grid-cols-2 gap-6">
+      <div>
+        <div class="text-white font-semibold">InstaSolutions + TechTrust</div>
+        <p class="mt-2 text-sm">Gestão de frotas com rede de oficinas integrada. Atendimento em SP, MS, MT, ES, RS, PR e CE.</p>
+      </div>
+      <div class="text-sm md:text-right">
+        <div>© <span id="year"></span> InstaSolutions & TechTrust AutoSolutions. Todos os direitos reservados.</div>
+        <div class="mt-1">CNPJ/Tax IDs — (preencher)</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS BÁSICO: feedback do formulário e ano do rodapé -->
+  <script>
+  // Ano do rodapé
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // UTM helper: captura utms e adiciona como campos ocultos no formulário
+  function appendHidden(name, value, form){
+    if(!value) return; const i=document.createElement('input'); i.type='hidden'; i.name=name; i.value=value; form.appendChild(i);
+  }
+  const params = new URLSearchParams(window.location.search);
+  const form = document.getElementById('leadForm');
+  const feedback = document.getElementById('formFeedback');
+  ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(k=>appendHidden(k, params.get(k), form));
+
+  form.addEventListener('submit', function(e){
+    // Dispara eventos de conversão (não quebra o envio)
+    try{ if(window.gtag) gtag('event','generate_lead'); }catch(err){}
+    try{ if(window.fbq) fbq('track','Lead'); }catch(err){}
+    try{ if(window.lintrk) lintrk('track', { conversion_id: 0 }); }catch(err){}
+
+    // Se o action estiver como '#', fazemos mock local (modo demonstração)
+    const isMock = !form.action || form.action === '#' || form.action === window.location.href;
+    if(isMock){
+      e.preventDefault();
+      feedback.classList.remove('hidden');
+      feedback.textContent = 'Recebemos seus dados. Em instantes nossa equipe entra em contato.';
+      feedback.classList.add('text-green-700');
+      form.reset();
+      window.location.hash = '#contato';
+    }
+    // Caso contrário, deixa seguir para o endpoint real (Formspree/Typeform/CRM)
+  });
+</script>
+
+  <!-- EXEMPLOS DE TAGS (remova os comentários e substitua IDs) =====================================================
+  
+  1) Google Tag (GTM ou Ads):
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'AW-XXXXXXXXX');
+  </script>
+
+  2) Meta Pixel:
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '123456789012345');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=123456789012345&ev=PageView&noscript=1"/></noscript>
+
+  3) LinkedIn Insight Tag:
+  <script type="text/javascript">
+    _linkedin_partner_id = "0000000";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+  </script>
+  <script type="text/javascript">
+    (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]}
+    var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script"); b.type = "text/javascript"; b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk);
+  </script>
+  <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=0000000&fmt=gif" /></noscript>
+
+  =============================================================================================================== -->
+</body>
 </html>
